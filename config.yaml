@@ -1,10 +1,10 @@
 baseURL: https://grapebaba.github.io/
 languageCode: en-us
-title: Hugo
+title: 闹眼子
 theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish), default 'en'
-defaultContentLanguage: en
+defaultContentLanguage: zh
 
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
 #themesDir: ./themes
@@ -15,8 +15,8 @@ permalinks:
 
 paginate: 3
 
-googleAnalytics: your-google-analytics-id
-disqusShortname: your-disqus-shortname
+googleAnalytics: 281165273grape@gmail.com
+disqusShortname: grapebaba
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
@@ -36,20 +36,20 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: your-github-link
-  twitter: your-github-link
-  stackoverflow: your-github-link
+  github: https://github.com/GrapeBaBa
+  twitter: https://twitter.com/GrapeBaBa
+  stackoverflow: https://stackoverflow.com/users/3141951/grapebaba
   # facebook: your-facebook-link
 
 
 # Site parameters
 params:
   # Site Author
-  author: Author
+  author: 葡萄爸爸
   # Author biography
-  bio: Software Engineer
+  bio: 醒着==睡觉
   # Site Description, used in HTML meat
-  description: My Blog
+  description: 沉默是金
 
 
   ###########################################
@@ -70,7 +70,7 @@ params:
   math: false
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: false
-  # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
+  # Website copy write, default: '© Copyright 2022 ❤️ {params.author}'
   copyright: '' 
 
   # Extra links in navigation
