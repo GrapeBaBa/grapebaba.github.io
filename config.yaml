@@ -1,17 +1,17 @@
 baseURL: https://grapebaba.github.io/
 languageCode: en-us
-title: 葡萄爸爸闹眼子
+title: Grapebaba's Home
 theme: mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish), default 'en'
-defaultContentLanguage: zh
+defaultContentLanguage: en
 
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
 #themesDir: ./themes
 
 hasCJKLanguage: true
 permalinks:
-  posts: /posts/:title/
+  posts: /:title/
 
 paginate: 3
 
@@ -45,11 +45,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: 葡萄爸爸
+  author: Grapebaba
   # Author biography
-  bio: 醒着==睡觉
+  bio: awake==sleep
   # Site Description, used in HTML meat
-  description: 沉默是金
+  description: Speech is silver, silence is golden
 
 
   ###########################################
@@ -69,7 +69,7 @@ params:
   # To enable math typesetting , you could set `math: true`, default is `false`
   math: false
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: false
+  hiddenPostSummaryInHomePage: true
   # Website copy write, default: '© Copyright 2022 ❤️ {params.author}'
   copyright: '' 
 
